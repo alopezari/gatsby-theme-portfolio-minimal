@@ -26,15 +26,6 @@ export function Header(): React.ReactElement {
                     </Link>
                 );
             })}
-            <a
-                href={siteConfiguration.navigation.ctaButton.url}
-                target={siteConfiguration.navigation.ctaButton.openNewTab ? '_blank' : undefined}
-                rel="noopener noreferrer"
-                className={classes.CtaButton}
-                onClick={!isDesktopBreakpoint ? () => setOpen(!open) : undefined}
-            >
-                {siteConfiguration.navigation.ctaButton.label}
-            </a>
         </>
     );
 

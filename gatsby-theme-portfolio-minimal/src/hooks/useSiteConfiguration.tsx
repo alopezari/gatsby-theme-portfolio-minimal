@@ -11,11 +11,6 @@ export interface SiteConfiguration {
         text: string;
     };
     navigation: {
-        ctaButton: {
-            label: string;
-            openNewTab: boolean;
-            url: string;
-        };
         footer: {
             label: string;
             url: string;
@@ -46,11 +41,6 @@ export const query = graphql`
                         text
                     }
                     navigation {
-                        ctaButton {
-                            label
-                            openNewTab
-                            url
-                        }
                         footer {
                             label
                             url

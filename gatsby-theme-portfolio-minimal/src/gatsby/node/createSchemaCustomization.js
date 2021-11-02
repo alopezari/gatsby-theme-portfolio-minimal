@@ -68,7 +68,6 @@ module.exports = ({ actions }) => {
     type Navigation {
         header: [NavigationItem]
         footer: [NavigationItem]
-        ctaButton: CallToActionButton
     }
     type FeatureToggles {
         useDarkModeAsDefault: Boolean
