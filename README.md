@@ -321,7 +321,7 @@ The theme settings can be divided in two parts. There is a `settings.json` file 
                 { "label": "Features", "url": "/#features" },
                 { "label": "Github", "url": "/#github" }
             ],
-            "ctaButton": { "openNewTab": true, "label": "Resume", "url": "/resume.pdf" },
+            "ctaButton": { "show": true, "openNewTab": true, "label": "Resume", "url": "/resume.pdf" },
             "footer": [
                 { "label": "Privacy", "url": "/privacy" },
                 { "label": "Imprint", "url": "/imprint" }
